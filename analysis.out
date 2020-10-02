@@ -1,0 +1,2487 @@
+[+] Version: psad v2.4.3
+
+[+] Top 50 signature matches:
+      "MISC Microsoft SQL Server communication attempt" (tcp),  Count: 107,  Unique sources: 93,  Sid: 100205
+      "MISC MS Terminal Server communication attempt" (tcp),  Count: 46,  Unique sources: 39,  Sid: 100077
+      "P2P Napster Client Data communication attempt" (tcp),  Count: 26,  Unique sources: 25,  Sid: 564
+      "MISC HP Web JetAdmin communication attempt" (tcp),  Count: 18,  Unique sources: 10,  Sid: 100084
+      "BACKDOOR DoomJuice file upload attempt" (tcp),  Count: 12,  Unique sources: 12,  Sid: 2375
+      "POLICY HP JetDirect LCD communication attempt" (tcp),  Count: 11,  Unique sources: 3,  Sid: 510
+      "MISC VNC communication attempt" (tcp),  Count: 10,  Unique sources: 9,  Sid: 100202
+      "SCAN UPnP communication attempt" (udp),  Count: 9,  Unique sources: 6,  Sid: 100074
+      "P2P napster communication attempt" (tcp),  Count: 6,  Unique sources: 6,  Sid: 100090
+      "MISC Radmin Default install options attempt" (tcp),  Count: 6,  Unique sources: 3,  Sid: 100204
+      "P2P Napster Client Data communication attempt" (tcp),  Count: 4,  Unique sources: 4,  Sid: 562
+      "MISC isakmp login failed" (udp),  Count: 4,  Unique sources: 1,  Sid: 2043
+      "BACKDOOR RUX the Tick connection attempt" (tcp),  Count: 3,  Unique sources: 3,  Sid: 100063
+      "BACKDOOR netbus Connection Cttempt" (tcp),  Count: 3,  Unique sources: 3,  Sid: 100028
+      "POLICY vncviewer Java applet communication attempt" (tcp),  Count: 3,  Unique sources: 2,  Sid: 1846
+      "BACKDOOR SatansBackdoor.2.0.Beta, or BackConstruction 2.1 Connection Attempt" (tcp),  Count: 2,  Unique sources: 2,  Sid: 100041
+      "MISC PCAnywhere communication attempt" (tcp),  Count: 2,  Unique sources: 2,  Sid: 100073
+      "POLICY HP JetDirect LCD commnication attempt" (tcp),  Count: 2,  Unique sources: 2,  Sid: 568
+      "P2P Napster Client Data communication attempt" (tcp),  Count: 2,  Unique sources: 2,  Sid: 563
+      "BACKDOOR GateCrasher Connection attempt" (tcp),  Count: 1,  Unique sources: 1,  Sid: 147
+      "P2P BitTorrent communication attempt" (tcp),  Count: 1,  Unique sources: 1,  Sid: 2181
+      "BACKDOOR WinCrash 1.0 communication attempt" (tcp),  Count: 1,  Unique sources: 1,  Sid: 163
+      "P2P Napster Client Data communication attempt" (tcp),  Count: 1,  Unique sources: 1,  Sid: 561
+      "P2P eDonkey transfer attempt" (tcp),  Count: 1,  Unique sources: 1,  Sid: 2586
+
+[+] Top 25 attackers:
+      62.171.132.224  DL: 3, Packets: 50, Sig count: 7
+      103.114.105.147 DL: 2, Packets: 1, Sig count: 1
+      103.114.107.129 DL: 2, Packets: 1, Sig count: 1
+      103.133.109.58  DL: 2, Packets: 1, Sig count: 1
+      103.138.108.9   DL: 2, Packets: 2, Sig count: 1
+      103.145.13.58   DL: 2, Packets: 17, Sig count: 0
+      103.15.40.122   DL: 2, Packets: 1, Sig count: 1
+      103.207.39.9    DL: 2, Packets: 1, Sig count: 1
+      103.249.207.22  DL: 2, Packets: 2, Sig count: 2
+      103.99.0.124    DL: 2, Packets: 1, Sig count: 1
+      104.136.100.39  DL: 2, Packets: 1, Sig count: 1
+      104.140.188.6   DL: 2, Packets: 1, Sig count: 1
+      104.143.83.242  DL: 2, Packets: 4, Sig count: 1
+      104.206.128.78  DL: 2, Packets: 1, Sig count: 1
+      106.38.169.59   DL: 2, Packets: 2, Sig count: 2
+      109.74.200.120  DL: 2, Packets: 2, Sig count: 2
+      112.67.42.73    DL: 2, Packets: 1, Sig count: 1
+      113.106.12.9    DL: 2, Packets: 1, Sig count: 1
+      114.33.37.45    DL: 2, Packets: 1, Sig count: 1
+      114.35.206.198  DL: 2, Packets: 1, Sig count: 1
+      116.95.57.76    DL: 2, Packets: 1, Sig count: 1
+      118.140.187.226 DL: 2, Packets: 1, Sig count: 1
+      118.186.203.145 DL: 2, Packets: 1, Sig count: 1
+      118.97.13.146   DL: 2, Packets: 1, Sig count: 1
+
+[+] Top 20 scanned ports:
+      tcp 445   5540 packets
+      tcp 30104 1050 packets
+      tcp 9399  454 packets
+      tcp 23    208 packets
+      tcp 22    114 packets
+      tcp 1433  109 packets
+      tcp 50050 102 packets
+      tcp 8291  95 packets
+      tcp 46003 85 packets
+      tcp 8088  62 packets
+      tcp 3389  52 packets
+      tcp 8728  49 packets
+      tcp 8080  31 packets
+      tcp 5038  27 packets
+      tcp 60001 27 packets
+      tcp 5555  26 packets
+      tcp 13333 25 packets
+      tcp 2323  24 packets
+      tcp 48882 23 packets
+      tcp 8000  18 packets
+
+      udp 5060  94 packets
+      udp 50600 19 packets
+      udp 123   13 packets
+      udp 53    12 packets
+      udp 389   10 packets
+      udp 161   10 packets
+      udp 1900  9 packets
+      udp 500   6 packets
+      udp 11211 6 packets
+      udp 19    6 packets
+      udp 5632  4 packets
+      udp 8082  4 packets
+      udp 5353  4 packets
+      udp 137   4 packets
+      udp 5684  4 packets
+      udp 3702  4 packets
+      udp 8080  4 packets
+      udp 47808 3 packets
+      udp 111   3 packets
+      udp 5683  3 packets
+
+[+] iptables log prefix counters:
+      "iptables_INPUT_denied:": 10579
+
+    Total protocol packet counters:
+         gre: 1 pkts, (General Routing Encapsulation)
+         tcp: 9993 pkts
+         udp: 356 pkts
+
+[+] IP Status Detail:
+
+SRC:  62.171.132.224, DL: 3, Dsts: 1, Pkts: 50, Total protocols: 1, Unique sigs: 6
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1000-65001, Pkts: 50, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P napster communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 8888, SYN, Sid: 100090
+        Signature match: "MISC HP Web JetAdmin communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 8000, SYN, Sid: 100084
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 7777, SYN, Sid: 562
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 6666, SYN, Sid: 563
+        Signature match: "POLICY HP JetDirect LCD communication attempt"
+            TCP, Chain: INPUT, Count: 2, DP: 9001, SYN, Sid: 510
+
+SRC:  103.114.105.147, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  103.114.107.129, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  103.133.109.58, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  103.138.108.9, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389-3398, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  103.145.13.58, DL: 2, Dsts: 1, Pkts: 17, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5038-50802, Pkts: 17, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  103.15.40.122, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22222, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR RUX the Tick connection attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 22222, SYN, Sid: 100063
+
+SRC:  103.207.39.9, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  103.249.207.22, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 2, DP: 1433, SYN, Sid: 100205
+
+SRC:  103.99.0.124, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  104.136.100.39, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5555, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  104.140.188.6, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5900, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC VNC communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5900, SYN, Sid: 100202
+
+SRC:  104.143.83.242, DL: 2, Dsts: 1, Pkts: 4, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 9100-32768, Pkts: 4, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "POLICY HP JetDirect LCD commnication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 9100, SYN, Sid: 568
+
+SRC:  104.206.128.78, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  106.38.169.59, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 2, DP: 1433, SYN, Sid: 100205
+
+SRC:  109.74.200.120, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 8000, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC HP Web JetAdmin communication attempt"
+            TCP, Chain: INPUT, Count: 2, DP: 8000, SYN, Sid: 100084
+
+SRC:  112.67.42.73, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  113.106.12.9, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  114.33.37.45, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5555, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  114.35.206.198, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5555, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  116.95.57.76, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  118.140.187.226, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  118.186.203.145, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  118.97.13.146, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  119.147.211.178, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  119.57.142.10, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  119.63.42.112, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  120.31.135.140, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 4244-5555, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  121.185.118.174, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5555, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  122.141.182.42, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  122.143.114.155, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  122.228.19.80, DL: 2, Dsts: 1, Pkts: 25, Total protocols: 2, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 23-34569, Pkts: 22, Chain: INPUT, Intf: eth0
+        Scanned ports: UDP 3283-6969, Pkts: 3, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 2, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 6699, SYN, Sid: 561
+
+SRC:  122.34.205.3, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5555, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  123.30.100.180, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  123.59.28.230, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  124.115.106.150, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  125.161.130.80, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  125.46.97.138, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  125.64.94.133, DL: 2, Dsts: 1, Pkts: 3, Total protocols: 2, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: UDP 32755, Pkts: 1, Chain: INPUT, Intf: eth0
+        Scanned ports: TCP 5801-8025, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 2, Chain: INPUT, Intf: eth0
+        Signature match: "POLICY vncviewer Java applet communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5801, SYN, Sid: 1846
+
+SRC:  128.14.209.251, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 8000, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC HP Web JetAdmin communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 8000, SYN, Sid: 100084
+
+SRC:  13.76.190.188, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  137.117.192.55, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  139.162.121.251, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3128, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR DoomJuice file upload attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3128, SYN, Sid: 2375
+
+SRC:  139.162.77.6, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  139.59.108.127, DL: 2, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 2375-5555, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  139.9.114.199, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5555, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  14.127.249.159, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  141.98.80.227, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5900, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC VNC communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5900, SYN, Sid: 100202
+
+SRC:  141.98.81.253, DL: 2, Dsts: 1, Pkts: 5, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3387-3394, Pkts: 5, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  146.88.240.4, DL: 2, Dsts: 1, Pkts: 33, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: UDP 17-51413, Pkts: 33, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "SCAN UPnP communication attempt"
+            UDP, Chain: INPUT, Count: 2, DP: 1900, Sid: 100074
+
+SRC:  147.203.238.18, DL: 2, Dsts: 1, Pkts: 5, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: UDP 53-1900, Pkts: 5, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "SCAN UPnP communication attempt"
+            UDP, Chain: INPUT, Count: 1, DP: 1900, Sid: 100074
+
+SRC:  154.57.193.2, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  159.89.144.166, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 8000, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC HP Web JetAdmin communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 8000, SYN, Sid: 100084
+
+SRC:  161.0.114.107, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5555, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  162.142.125.17, DL: 2, Dsts: 1, Pkts: 4, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433-6443, Pkts: 4, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  162.142.125.30, DL: 2, Dsts: 1, Pkts: 3, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389-20000, Pkts: 3, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  162.243.128.147, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 7777, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 7777, SYN, Sid: 562
+
+SRC:  162.243.128.50, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3128, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR DoomJuice file upload attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3128, SYN, Sid: 2375
+
+SRC:  163.172.166.53, DL: 2, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 2375-5555, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  165.232.106.174, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 6969, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR GateCrasher Connection attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 6969, SYN, Sid: 147
+
+SRC:  167.248.133.25, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 502-22222, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR RUX the Tick connection attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 22222, SYN, Sid: 100063
+
+SRC:  167.248.133.28, DL: 2, Dsts: 1, Pkts: 5, Total protocols: 2, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: UDP 5684-47808, Pkts: 2, Chain: INPUT, Intf: eth0
+        Scanned ports: TCP 3390-33389, Pkts: 3, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 2, Chain: INPUT, Intf: eth0
+        Signature match: "MISC VNC communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5900, SYN, Sid: 100202
+
+SRC:  167.248.133.29, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433-9200, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  167.248.133.67, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 9488-12345, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR netbus Connection Cttempt"
+            TCP, Chain: INPUT, Count: 1, DP: 12345, SYN, Sid: 100028
+
+SRC:  167.248.133.75, DL: 2, Dsts: 1, Pkts: 3, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3018-12346, Pkts: 3, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR netbus Connection Cttempt"
+            TCP, Chain: INPUT, Count: 1, DP: 12346, SYN, Sid: 100028
+
+SRC:  168.235.110.36, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  170.130.187.26, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  170.130.187.30, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389-5432, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  170.78.172.112, DL: 2, Dsts: 1, Pkts: 3, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        Windows:2000:SP2+:Windows 2000 SP2, XP SP1 (seldom 98 4.10.2222)
+        @Windows:2000::Windows XP/2000
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP::Windows XP/2000
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        Windows:XP:SP1:Windows 2000 SP2, XP SP1 (seldom 98 4.10.2222)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 4899, Pkts: 3, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Radmin Default install options attempt"
+            TCP, Chain: INPUT, Count: 3, DP: 4899, SYN, Sid: 100204
+
+SRC:  172.104.124.229, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 8888, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P napster communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 8888, SYN, Sid: 100090
+
+SRC:  172.104.65.226, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3128, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR DoomJuice file upload attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3128, SYN, Sid: 2375
+
+SRC:  175.140.20.240, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 8000, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC HP Web JetAdmin communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 8000, SYN, Sid: 100084
+
+SRC:  176.111.173.29, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  176.113.115.214, DL: 2, Dsts: 1, Pkts: 13, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 2375-8983, Pkts: 13, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  178.128.122.222, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 6881, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P BitTorrent communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 6881, SYN, Sid: 2181
+
+SRC:  178.205.253.206, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  178.209.71.119, DL: 2, Dsts: 1, Pkts: 5, Total protocols: 2, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 445, Pkts: 1, Chain: INPUT, Intf: eth0
+        Scanned ports: UDP 500, Pkts: 4, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 2, Chain: INPUT, Intf: eth0
+        Signature match: "MISC isakmp login failed"
+            UDP, Chain: INPUT, Count: 4, DP: 500, Sid: 2043
+
+SRC:  180.163.220.47, DL: 2, Dsts: 1, Pkts: 8, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 8000, Pkts: 8, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC HP Web JetAdmin communication attempt"
+            TCP, Chain: INPUT, Count: 8, DP: 8000, SYN, Sid: 100084
+
+SRC:  180.163.220.95, DL: 2, Dsts: 1, Pkts: 8, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 9000, Pkts: 8, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "POLICY HP JetDirect LCD communication attempt"
+            TCP, Chain: INPUT, Count: 8, DP: 9000, SYN, Sid: 510
+
+SRC:  180.214.236.211, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  180.76.54.188, DL: 2, Dsts: 1, Pkts: 4, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 2377-5555, Pkts: 4, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 2, DP: 5555, SYN, Sid: 564
+
+SRC:  181.57.33.248, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  181.58.166.185, DL: 2, Dsts: 1, Pkts: 11, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 11, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  182.135.63.227, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  182.226.116.136, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5555, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  183.131.206.110, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 2, DP: 1433, SYN, Sid: 100205
+
+SRC:  183.166.59.149, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  183.196.140.12, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  183.91.6.225, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  184.189.123.68, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5555, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  185.153.196.126, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  185.153.196.81, DL: 2, Dsts: 1, Pkts: 4, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3386-3390, Pkts: 4, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  185.175.93.14, DL: 2, Dsts: 1, Pkts: 21, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 701-61213, Pkts: 21, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  185.176.27.42, DL: 2, Dsts: 1, Pkts: 17, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 199-64518, Pkts: 17, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  185.190.132.191, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 445-1433, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  185.193.90.162, DL: 2, Dsts: 1, Pkts: 19, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1112-50007, Pkts: 19, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 7777, SYN, Sid: 562
+
+SRC:  185.200.118.35, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3128, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR DoomJuice file upload attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3128, SYN, Sid: 2375
+
+SRC:  185.200.118.43, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3128, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR DoomJuice file upload attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3128, SYN, Sid: 2375
+
+SRC:  185.200.118.58, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  185.200.118.66, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  185.240.246.187, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  185.66.131.15, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 445-1433, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  186.226.177.250, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  188.166.225.17, DL: 2, Dsts: 1, Pkts: 11, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1000-28099, Pkts: 11, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC HP Web JetAdmin communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 8000, SYN, Sid: 100084
+
+SRC:  188.168.30.47, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  188.246.224.126, DL: 2, Dsts: 1, Pkts: 8, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3385-3392, Pkts: 8, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  189.186.20.15, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  191.96.97.222, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: UDP 1900, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "SCAN UPnP communication attempt"
+            UDP, Chain: INPUT, Count: 1, DP: 1900, Sid: 100074
+
+SRC:  192.165.228.139, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  192.241.231.199, DL: 2, Dsts: 1, Pkts: 3, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 992-8000, Pkts: 3, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC HP Web JetAdmin communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 8000, SYN, Sid: 100084
+
+SRC:  192.241.233.249, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  192.241.233.93, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 4899, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Radmin Default install options attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 4899, SYN, Sid: 100204
+
+SRC:  192.241.236.169, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 111-5631, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC PCAnywhere communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5631, SYN, Sid: 100073
+
+SRC:  192.241.238.16, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  192.241.238.241, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 9001, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "POLICY HP JetDirect LCD communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 9001, SYN, Sid: 510
+
+SRC:  192.241.238.51, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  192.35.168.26, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5900, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC VNC communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5900, SYN, Sid: 100202
+
+SRC:  192.35.169.23, DL: 2, Dsts: 1, Pkts: 5, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 81-16992, Pkts: 5, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  192.35.169.28, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 623-3389, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  193.168.225.156, DL: 2, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 445-1433, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 3, DP: 1433, SYN, Sid: 100205
+
+SRC:  193.29.15.169, DL: 2, Dsts: 1, Pkts: 5, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: UDP 53-1900, Pkts: 5, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "SCAN UPnP communication attempt"
+            UDP, Chain: INPUT, Count: 2, DP: 1900, Sid: 100074
+
+SRC:  194.26.25.106, DL: 2, Dsts: 1, Pkts: 4, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 10-999, Pkts: 4, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR SatansBackdoor.2.0.Beta, or BackConstruction 2.1 Connection Attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 666, SYN, Sid: 100041
+
+SRC:  195.54.160.228, DL: 2, Dsts: 1, Pkts: 31, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 35610-35790, Pkts: 31, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  196.218.174.80, DL: 2, Dsts: 1, Pkts: 3, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:2000::Windows XP/2000
+        Windows:2000:SP2+:Windows 2000 SP2, XP SP1 (seldom 98 4.10.2222)
+        @Windows:XP::Windows XP/2000
+        Windows:XP:SP1:Windows 2000 SP2, XP SP1 (seldom 98 4.10.2222)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 445-1433, Pkts: 3, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  196.220.34.80, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  196.27.73.219, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  197.45.187.217, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 445-1433, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  197.50.24.209, DL: 2, Dsts: 1, Pkts: 4, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 445-1433, Pkts: 4, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 2, DP: 1433, SYN, Sid: 100205
+
+SRC:  198.143.133.158, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 9100, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "POLICY HP JetDirect LCD commnication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 9100, SYN, Sid: 568
+
+SRC:  198.143.158.82, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 6666, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 6666, SYN, Sid: 563
+
+SRC:  198.204.229.10, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  2.57.122.98, DL: 2, Dsts: 1, Pkts: 4, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: UDP 19-1900, Pkts: 4, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "SCAN UPnP communication attempt"
+            UDP, Chain: INPUT, Count: 1, DP: 1900, Sid: 100074
+
+SRC:  200.122.90.168, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  200.233.252.167, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  200.52.78.118, DL: 2, Dsts: 1, Pkts: 4, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 445-1433, Pkts: 4, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 2, DP: 1433, SYN, Sid: 100205
+
+SRC:  201.174.127.62, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  202.134.61.41, DL: 2, Dsts: 1, Pkts: 3, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 3, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 3, DP: 3389, SYN, Sid: 100077
+
+SRC:  205.185.119.232, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: UDP 1900, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "SCAN UPnP communication attempt"
+            UDP, Chain: INPUT, Count: 2, DP: 1900, Sid: 100074
+
+SRC:  208.100.26.228, DL: 2, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 2323-4040, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  212.80.219.131, DL: 2, Dsts: 1, Pkts: 12, Total protocols: 1, Unique sigs: 2
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 24-5555, Pkts: 12, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR SatansBackdoor.2.0.Beta, or BackConstruction 2.1 Connection Attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 666, SYN, Sid: 100041
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  212.80.219.138, DL: 2, Dsts: 1, Pkts: 11, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 135-9080, Pkts: 11, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P napster communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 8888, SYN, Sid: 100090
+
+SRC:  212.80.219.97, DL: 2, Dsts: 1, Pkts: 17, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 2006-5557, Pkts: 17, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  213.7.69.34, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5555, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  217.21.193.74, DL: 2, Dsts: 1, Pkts: 4, Total protocols: 1, Unique sigs: 2
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5801-5900, Pkts: 4, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "POLICY vncviewer Java applet communication attempt"
+            TCP, Chain: INPUT, Count: 2, DP: 5801, SYN, Sid: 1846
+        Signature match: "MISC VNC communication attempt"
+            TCP, Chain: INPUT, Count: 2, DP: 5900, SYN, Sid: 100202
+
+SRC:  218.189.125.134, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  218.3.124.180, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  219.77.246.91, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5555, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  220.134.243.65, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5555, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  220.178.67.250, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  220.189.196.206, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 2, DP: 1433, SYN, Sid: 100205
+
+SRC:  221.8.146.104, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 2, DP: 1433, SYN, Sid: 100205
+
+SRC:  223.205.166.68, DL: 2, Dsts: 1, Pkts: 11, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 11, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  223.240.103.61, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  24.226.148.214, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  27.74.85.9, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5555, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  31.170.22.12, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  34.77.93.233, DL: 2, Dsts: 1, Pkts: 3, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 2375-5555, Pkts: 3, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  35.153.83.22, DL: 2, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 4899, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Radmin Default install options attempt"
+            TCP, Chain: INPUT, Count: 2, DP: 4899, SYN, Sid: 100204
+
+SRC:  35.205.244.82, DL: 2, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 2375-5555, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  36.110.182.30, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  36.154.210.165, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  36.77.196.1, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  37.191.78.4, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  39.129.90.143, DL: 2, Dsts: 1, Pkts: 5, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 2375-5555, Pkts: 5, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  41.80.191.120, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  41.90.85.181, DL: 2, Dsts: 1, Pkts: 10, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 10, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  43.255.156.21, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  45.119.85.166, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  45.129.33.122, DL: 2, Dsts: 1, Pkts: 21, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5630-5894, Pkts: 21, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR WinCrash 1.0 communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5714, SYN, Sid: 163
+
+SRC:  45.129.33.14, DL: 2, Dsts: 1, Pkts: 15, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1394-60987, Pkts: 15, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  45.129.33.141, DL: 2, Dsts: 1, Pkts: 11, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 34537-36732, Pkts: 11, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  45.129.33.143, DL: 2, Dsts: 1, Pkts: 10, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 34599-36301, Pkts: 10, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  45.129.33.145, DL: 2, Dsts: 1, Pkts: 11, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 34307-36554, Pkts: 11, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  45.129.33.149, DL: 2, Dsts: 1, Pkts: 11, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 34254-36493, Pkts: 11, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  45.129.33.152, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  45.129.33.51, DL: 2, Dsts: 1, Pkts: 11, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 34409-36662, Pkts: 11, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  45.131.231.90, DL: 2, Dsts: 1, Pkts: 31, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 111-60010, Pkts: 31, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  45.135.232.39, DL: 2, Dsts: 1, Pkts: 3, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389-3391, Pkts: 3, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  45.146.164.169, DL: 2, Dsts: 1, Pkts: 16, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 234-10002, Pkts: 16, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  45.148.121.28, DL: 2, Dsts: 1, Pkts: 7, Total protocols: 1, Unique sigs: 2
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 81-8888, Pkts: 7, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC HP Web JetAdmin communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 8000, SYN, Sid: 100084
+        Signature match: "P2P napster communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 8888, SYN, Sid: 100090
+
+SRC:  45.166.152.58, DL: 2, Dsts: 1, Pkts: 3, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000::Windows XP/2000
+        Windows:2000:SP2+:Windows 2000 SP2, XP SP1 (seldom 98 4.10.2222)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        Windows:XP:SP1:Windows 2000 SP2, XP SP1 (seldom 98 4.10.2222)
+        @Windows:XP::Windows XP/2000
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 3, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 3, DP: 1433, SYN, Sid: 100205
+
+SRC:  45.230.240.107, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  45.77.251.156, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  46.100.63.54, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  46.101.235.143, DL: 2, Dsts: 1, Pkts: 11, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 9399-30104, Pkts: 11, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  46.161.27.75, DL: 2, Dsts: 1, Pkts: 11, Total protocols: 1, Unique sigs: 3
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1989-23390, Pkts: 11, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR DoomJuice file upload attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3184, SYN, Sid: 2375
+        Signature match: "P2P eDonkey transfer attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 4242, SYN, Sid: 2586
+        Signature match: "MISC PCAnywhere communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5631, SYN, Sid: 100073
+
+SRC:  46.17.105.131, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5555, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  46.249.32.211, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  50.96.52.82, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  51.15.229.188, DL: 2, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 2375-5555, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  51.83.200.181, DL: 2, Dsts: 1, Pkts: 3, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389-3392, Pkts: 3, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  52.183.160.165, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  54.210.223.77, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 8095-8888, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P napster communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 8888, SYN, Sid: 100090
+
+SRC:  58.18.102.140, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  58.217.157.46, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  58.228.159.253, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 2, DP: 3389, SYN, Sid: 100077
+
+SRC:  58.252.68.5, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  58.50.161.74, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  59.33.32.170, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 2, DP: 1433, SYN, Sid: 100205
+
+SRC:  60.10.134.52, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        Windows:2000:SP2+:Windows 2000 SP2, XP SP1 (seldom 98 4.10.2222)
+        @Windows:2000::Windows XP/2000
+        Windows:XP:SP1:Windows 2000 SP2, XP SP1 (seldom 98 4.10.2222)
+        @Windows:XP::Windows XP/2000
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 2, DP: 1433, SYN, Sid: 100205
+
+SRC:  60.190.24.225, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  60.251.32.127, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  61.150.43.105, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  61.161.149.246, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  61.216.171.90, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5555, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5555, SYN, Sid: 564
+
+SRC:  61.3.230.39, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 445-1433, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  62.210.146.59, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5900, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC VNC communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5900, SYN, Sid: 100202
+
+SRC:  64.31.7.50, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  68.51.173.120, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  74.120.14.28, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5900, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC VNC communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5900, SYN, Sid: 100202
+
+SRC:  74.120.14.29, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 2083-22222, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR RUX the Tick connection attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 22222, SYN, Sid: 100063
+
+SRC:  78.93.119.77, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  79.124.62.102, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 445-3389, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  80.82.65.74, DL: 2, Dsts: 1, Pkts: 11, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3113-20002, Pkts: 11, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  80.82.77.245, DL: 2, Dsts: 1, Pkts: 12, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: UDP 19-49160, Pkts: 12, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  80.82.78.100, DL: 2, Dsts: 1, Pkts: 11, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: UDP 4343-49161, Pkts: 11, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  82.223.19.45, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  83.97.20.153, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  83.97.20.31, DL: 2, Dsts: 1, Pkts: 9, Total protocols: 1, Unique sigs: 2
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1080-8089, Pkts: 9, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR DoomJuice file upload attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3128, SYN, Sid: 2375
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  83.97.20.35, DL: 2, Dsts: 1, Pkts: 28, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 137-49154, Pkts: 28, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  84.205.241.1, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 2, DP: 1433, SYN, Sid: 100205
+
+SRC:  85.209.0.113, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3128, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR DoomJuice file upload attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3128, SYN, Sid: 2375
+
+SRC:  85.239.35.20, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  88.218.17.103, DL: 2, Dsts: 1, Pkts: 5, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 5, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 5, DP: 3389, SYN, Sid: 100077
+
+SRC:  89.248.160.150, DL: 2, Dsts: 1, Pkts: 10, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: UDP 50501-58481, Pkts: 10, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  89.248.167.131, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3128, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR DoomJuice file upload attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3128, SYN, Sid: 2375
+
+SRC:  89.248.167.141, DL: 2, Dsts: 1, Pkts: 14, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1220-9996, Pkts: 14, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR DoomJuice file upload attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3132, SYN, Sid: 2375
+
+SRC:  89.248.172.140, DL: 2, Dsts: 1, Pkts: 12, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 2468-36547, Pkts: 12, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR DoomJuice file upload attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3141, SYN, Sid: 2375
+
+SRC:  89.248.174.193, DL: 2, Dsts: 1, Pkts: 3, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 7071-9200, Pkts: 3, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P Napster Client Data communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 7777, SYN, Sid: 562
+
+SRC:  89.31.110.92, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  91.134.185.80, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  91.235.187.132, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  91.236.61.166, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  92.118.160.53, DL: 2, Dsts: 1, Pkts: 2, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 12345-50805, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "BACKDOOR netbus Connection Cttempt"
+            TCP, Chain: INPUT, Count: 1, DP: 12345, SYN, Sid: 100028
+
+SRC:  92.118.228.122, DL: 2, Dsts: 1, Pkts: 16, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 84-8099, Pkts: 16, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  92.124.140.155, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  92.63.197.71, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  93.174.93.195, DL: 2, Dsts: 1, Pkts: 11, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: UDP 10015-11888, Pkts: 11, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  93.174.93.218, DL: 2, Dsts: 1, Pkts: 3, Total protocols: 1, Unique sigs: 2
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3128-8888, Pkts: 3, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "P2P napster communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 8888, SYN, Sid: 100090
+        Signature match: "BACKDOOR DoomJuice file upload attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3128, SYN, Sid: 2375
+
+SRC:  94.102.49.191, DL: 2, Dsts: 1, Pkts: 28, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 11-970, Pkts: 28, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  94.102.49.193, DL: 2, Dsts: 1, Pkts: 3, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 2345-8009, Pkts: 3, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC VNC communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5900, SYN, Sid: 100202
+
+SRC:  94.102.51.17, DL: 2, Dsts: 1, Pkts: 19, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 4085-9855, Pkts: 19, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  94.102.51.29, DL: 2, Dsts: 1, Pkts: 22, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3393-50000, Pkts: 22, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC HP Web JetAdmin communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 8000, SYN, Sid: 100084
+
+SRC:  94.102.56.216, DL: 2, Dsts: 1, Pkts: 10, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: UDP 7760-7941, Pkts: 10, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  94.102.56.238, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 5900, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC VNC communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 5900, SYN, Sid: 100202
+
+SRC:  94.85.247.130, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  95.31.241.178, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1433, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC Microsoft SQL Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 1433, SYN, Sid: 100205
+
+SRC:  97.74.237.104, DL: 2, Dsts: 1, Pkts: 1, Total protocols: 1, Unique sigs: 1
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3389, Pkts: 1, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+        Signature match: "MISC MS Terminal Server communication attempt"
+            TCP, Chain: INPUT, Count: 1, DP: 3389, SYN, Sid: 100077
+
+SRC:  1.1.222.207, DL: 1, Dsts: 1, Pkts: 8, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 8, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  1.2.201.84, DL: 1, Dsts: 1, Pkts: 5, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 5, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  102.23.80.12, DL: 1, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  103.145.13.152, DL: 1, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: UDP 5077-36060, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  103.237.39.245, DL: 1, Dsts: 1, Pkts: 7, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 7, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  111.95.23.232, DL: 1, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  123.27.154.90, DL: 1, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  125.64.94.136, DL: 1, Dsts: 1, Pkts: 9, Total protocols: 2, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: UDP 32800, Pkts: 1, Chain: INPUT, Intf: eth0
+        Scanned ports: TCP 84-27016, Pkts: 8, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 2, Chain: INPUT, Intf: eth0
+
+SRC:  131.161.65.11, DL: 1, Dsts: 1, Pkts: 7, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 7, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  148.103.176.16, DL: 1, Dsts: 1, Pkts: 8, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 8, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  157.230.14.146, DL: 1, Dsts: 1, Pkts: 8, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 8078-59808, Pkts: 8, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  164.68.112.178, DL: 1, Dsts: 1, Pkts: 7, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-47808, Pkts: 7, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  167.172.50.50, DL: 1, Dsts: 1, Pkts: 5, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 5, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  168.90.164.70, DL: 1, Dsts: 1, Pkts: 7, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 7, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  175.101.105.163, DL: 1, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  175.145.200.248, DL: 1, Dsts: 1, Pkts: 5, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 5, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  177.37.236.26, DL: 1, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  182.191.93.246, DL: 1, Dsts: 1, Pkts: 9, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:XP::Windows XP/2000
+        Windows:XP:SP1:Windows 2000 SP2, XP SP1 (seldom 98 4.10.2222)
+        Windows:2000:SP2+:Windows 2000 SP2, XP SP1 (seldom 98 4.10.2222)
+        @Windows:2000::Windows XP/2000
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 9, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  185.137.234.205, DL: 1, Dsts: 1, Pkts: 8, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3393-3400, Pkts: 8, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  185.94.111.1, DL: 1, Dsts: 1, Pkts: 6, Total protocols: 2, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 179-13331, Pkts: 4, Chain: INPUT, Intf: eth0
+        Scanned ports: UDP 53-123, Pkts: 2, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 2, Chain: INPUT, Intf: eth0
+
+SRC:  192.35.168.225, DL: 1, Dsts: 1, Pkts: 5, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 8125-64152, Pkts: 5, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  192.35.168.238, DL: 1, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 6514-17777, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  193.27.229.145, DL: 1, Dsts: 1, Pkts: 9, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-27017, Pkts: 9, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  193.32.163.108, DL: 1, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1010-8010, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  208.100.26.241, DL: 1, Dsts: 1, Pkts: 5, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 20-53, Pkts: 5, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  27.71.153.235, DL: 1, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  36.71.233.208, DL: 1, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  45.129.33.144, DL: 1, Dsts: 1, Pkts: 9, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 34455-36240, Pkts: 9, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  45.129.33.147, DL: 1, Dsts: 1, Pkts: 9, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 34661-36362, Pkts: 9, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  45.129.33.148, DL: 1, Dsts: 1, Pkts: 9, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 34765-36432, Pkts: 9, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  45.143.221.107, DL: 1, Dsts: 1, Pkts: 5, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: UDP 4060-55432, Pkts: 5, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  45.146.164.181, DL: 1, Dsts: 1, Pkts: 5, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 33887-33990, Pkts: 5, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  60.169.81.229, DL: 1, Dsts: 1, Pkts: 7, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1432-51433, Pkts: 7, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  61.94.42.92, DL: 1, Dsts: 1, Pkts: 7, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 7, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  66.240.205.34, DL: 1, Dsts: 1, Pkts: 5, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 82-8080, Pkts: 5, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  71.6.147.254, DL: 1, Dsts: 1, Pkts: 5, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 4100-8873, Pkts: 5, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  78.100.183.45, DL: 1, Dsts: 1, Pkts: 8, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 8, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  78.128.113.42, DL: 1, Dsts: 1, Pkts: 9, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 1050-26262, Pkts: 9, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  87.251.74.205, DL: 1, Dsts: 1, Pkts: 9, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 23300-33385, Pkts: 9, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  88.204.214.210, DL: 1, Dsts: 1, Pkts: 7, Total protocols: 1, Unique sigs: 0
+    Source OS fingerprint(s):
+        @Windows:2000:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+        @Windows:XP:RFC1323:Windows XP/2000 (RFC1323 no tstamp)
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 22-8728, Pkts: 7, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  89.248.168.217, DL: 1, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: UDP 4244-5556, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  92.63.196.13, DL: 1, Dsts: 1, Pkts: 5, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 3381-3399, Pkts: 5, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  94.102.50.137, DL: 1, Dsts: 1, Pkts: 6, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 41422-41922, Pkts: 6, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+SRC:  94.102.50.155, DL: 1, Dsts: 1, Pkts: 5, Total protocols: 1, Unique sigs: 0
+
+    DST: 195.201.129.138, Local IP
+        Scanned ports: TCP 23422-23822, Pkts: 5, Chain: INPUT, Intf: eth0
+        Total scanned IP protocols: 1, Chain: INPUT, Intf: eth0
+
+    Total scan sources: 292
+    Total scan destinations: 1
+
